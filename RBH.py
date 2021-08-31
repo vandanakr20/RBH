@@ -128,6 +128,3 @@ with open ('Human_Zebrafish_RBH.tsv', 'w') as fh3:
         print(key + '\t' + human_dict[key][0] + '\t' + human_dict[key][1] + '\t' + RBH_dict[key] + '\t' + zfish_dict[RBH_dict[key]][0] + '\t' + zfish_dict[RBH_dict[key]][1], file = fh3)
         
          
-
-human_bio.close()
-zfish_bio.close()
